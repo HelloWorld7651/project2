@@ -1,5 +1,7 @@
 #include "EventNetwork.h"
 
+enum class MessageType { UNDEFINED = -1, EXIT, CHAT };
+
 using namespace df;
 
 EventNetwork::EventNetwork(NetworkEventLabel label) {

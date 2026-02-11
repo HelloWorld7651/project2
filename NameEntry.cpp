@@ -5,6 +5,8 @@
 #include "WorldManager.h"
 #include "TextBox.h" 
 
+enum class MessageType { UNDEFINED = -1, EXIT, CHAT };
+
 NameEntry::NameEntry() {
   setType("NameEntry");
   setText("");

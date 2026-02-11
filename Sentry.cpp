@@ -4,6 +4,8 @@
 #include "EventStep.h"
 #include "WorldManager.h"
 
+enum class MessageType { UNDEFINED = -1, EXIT, CHAT };
+
 // Define the protocol header size here locally or use a shared header
 // We assume message starts with int (size)
 #define HEADER_SIZE sizeof(int)

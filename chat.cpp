@@ -2,6 +2,8 @@
 #include "LogManager.h"
 #include "ServerEntry.h"
 
+enum class MessageType { UNDEFINED = -1, EXIT, CHAT };
+
 void populateWorld();
 
 int main(int argc, char *argv[]) {

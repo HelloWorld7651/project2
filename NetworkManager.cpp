@@ -19,6 +19,8 @@
 
 using namespace df;
 
+enum class MessageType { UNDEFINED = -1, EXIT, CHAT };
+
 //constructor
 NetworkManager::NetworkManager(){
     setType("NetworkManager");

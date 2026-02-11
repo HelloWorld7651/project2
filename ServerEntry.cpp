@@ -4,6 +4,8 @@
 #include "LogManager.h"
 #include "WorldManager.h"
 
+enum class MessageType { UNDEFINED = -1, EXIT, CHAT };
+
 ServerEntry::ServerEntry() {
   setType("ServerEntry");
   setText("127.0.0.1"); // Default to Localhost
